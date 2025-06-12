@@ -8,15 +8,17 @@ interface SnailProps {
 function Snail (props: SnailProps) {
     const idToName = ["Bartholomew", "Bob", "Hubert", "Leaf"]
     const idToFile = [
-        "src/assets/bartholomew.png",
-        "src/assets/bob.png",
-        "src/assets/hubert.png",
-        "src/assets/leaf.png"
+        "public/assets/bartholomew.png",
+        "public/assets/bob.png",
+        "public/assets/hubert.png",
+        "public/assets/leaf.png"
     ]
 
     return <img className="snail"
         src = {idToFile[props.id]}
         alt = {idToName[props.id]}
+        style = {{top: `${props.id*100}px`,
+                left: `${props.position}px`}}
     />
 }
 
