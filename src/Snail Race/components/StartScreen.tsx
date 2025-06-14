@@ -11,7 +11,7 @@ function StartScreen(props: StartScreenProps) {
 
 
     return <div className="start sign">
-        <h1>Snail Game!</h1>
+        <h1>Snail Race!</h1>
         <button className="start button" 
                 onClick={handleStart}>Start</button>
     </div>
