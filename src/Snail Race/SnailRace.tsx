@@ -7,9 +7,11 @@ function SnailRace() {
     let [started, setStarted] = useState(false);
     let screenToShow = (<StartScreen setStarted = {setStarted}/>)
     if (started) {
-        screenToShow = (<RaceTrack />) 
+        screenToShow = (<RaceTrack setStarted={setStarted}/>) 
     }
-    return screenToShow;
+    return <div className = "SnailRaceContainer">
+        {screenToShow}
+    </div>;
 }
 
 export default SnailRace;

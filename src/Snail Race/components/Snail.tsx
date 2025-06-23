@@ -1,12 +1,12 @@
-import "./Snail.css"
+import "../SnailRace.css"
 
 interface SnailProps {
     id: number;
     position: number;
+    name: string;
 }
 
 function Snail (props: SnailProps) {
-    const idToName = ["Bartholomew", "Bob", "Hubert", "Leaf"]
     const idToFile = [
         "/public/assets/bartholomew.png",
         "/public/assets/bob.png",
@@ -14,12 +14,18 @@ function Snail (props: SnailProps) {
         "/public/assets/leaf.png"
     ]
 
-    return <img className="snail"
+    return <div className="snail" style = {{top: `${props.id*9.3+8}vw`,
+                left: `${props.position/11.5+8}%`}}>
+        <p className = "nametag">
+            {props.name}
+        </p>
+        <img
         src = {idToFile[props.id]}
-        alt = {idToName[props.id]}
-        style = {{top: `${props.id*100}px`,
-                left: `${props.position}px`}}
+        alt = {props.name}
+        style = {{width:`90%`}}
     />
+    </div>
+    
 }
 
 export default Snail;

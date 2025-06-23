@@ -1,4 +1,4 @@
-import "./StartScreen.css";
+import "../SnailRace.css"
 
 interface StartScreenProps {
     setStarted: (value: boolean) => void;
@@ -10,9 +10,9 @@ function StartScreen(props: StartScreenProps) {
     }
 
 
-    return <div className="start sign">
+    return <div className="sign">
         <h1>Snail Race!</h1>
-        <button className="start button" 
+        <button 
                 onClick={handleStart}>Start</button>
     </div>
 }
