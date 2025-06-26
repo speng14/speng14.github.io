@@ -8,10 +8,10 @@ interface SnailProps {
 
 function Snail (props: SnailProps) {
     const idToFile = [
-        "/public/assets/bartholomew.png",
-        "/public/assets/bob.png",
-        "/public/assets/hubert.png",
-        "/public/assets/leaf.png"
+        "../../public/assets/bartholomew.png",
+        "../../public/assets/bob.png",
+        "../../public/assets/hubert.png",
+        "../../public/assets/leaf.png"
     ]
 
     return <div className="snail" style = {{top: `${props.id*9.3+8}vw`,
