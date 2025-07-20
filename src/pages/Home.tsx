@@ -8,9 +8,7 @@ import home_bg from '../../assets/angeline-beach.jpg'
 function Home() {
     return <div id="#home">
         <Header title="Angeline Peng" bg={home_bg}/>
-
-        
-        <div className="flex flex-col items-center mt-4">
+        <div className="w-full md:w-3xl xl:w-4xl m-auto flex flex-col items-center mt-4 px-4 md:px-0">
             
             <div>
                 <p>
@@ -28,7 +26,7 @@ function Home() {
                 
             </div>
 
-            <p className="mt-4 p-2 border rounded-lg border-amber-300">⚠️ This website is a work in progress!
+            <p className="m-4 p-2 border rounded-lg border-amber-300">⚠️ This website is a work in progress!
                 Pardon the dust as I continue to add/improve the website!  
             </p>
             

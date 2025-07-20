@@ -1,23 +1,23 @@
 import psetMeme from "../../assets/pset-meme.png"
 
 function Math () {
-    return <>
+    return <div className="w-full mx-2 md:w-3xl xl:w-4xl md:m-auto flex flex-col mt-4 md:px-0">
         <h1>Math</h1>
-        <p className="my-4 p-2 border rounded-lg border-amber-300">⚠️ This website is a work in progress!
+        <p className="mt-4 p-2 mx-16 border rounded-lg border-amber-300">⚠️ This website is a work in progress!
                 Pardon the dust as I continue to add/improve the website!  
             </p>
 
-        <div className="flex justify-center">
+        <div className="flex justify-center mt-4">
 
-        <div className="w-md px-4">
+
+        <div className="px-4">
+            <div className="sm:w-sm px-4 float-left">
                 <img src={psetMeme} alt="Hour 9 of psetting: you begin asking 
                 the math gods for a revelation" className="w-full h-auto mb-1"/>
                 <p className="text-gray-500 text-center text-xs mx-2">I taught a minicourse on 
                     Bezout's Theorem at PROMYS 2023 and a friend of mine made a meme of a pose I 
                     made (I get really into my explanations).</p>
-        </div>
-
-        <div className="w-3xl px-4 mt-4">
+            </div>
             <p>
                 I love teaching math! I think mathematical exposition is super fun, regardless of 
                 if it's about systems of equations or sheafs of functions (though this is something 
@@ -37,8 +37,7 @@ function Math () {
             </p>
         </div>
         </div> 
-        
-    </>
+    </div>
 }
 
 export default Math;

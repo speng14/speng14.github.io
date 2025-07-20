@@ -25,8 +25,8 @@ function About () {
             <h2>About Me</h2>
         </div>
         
-        <div className="w-3xl px-4">
-            <p className="text-gray-300 mb-6 text-lg px-4 mx-auto">
+        <div className="px-4">
+            <p className="text-gray-300 mb-6 px-2 mx-auto">
                 Hello! I'm Siyu Peng, and I go by Angeline. I'm a junior at the Massachusetts Institute of Technology, majoring in Course 18 and minoring 
                 in Course 6. I'd like to do math research, and my research interests primarily include arithmetic and algebraic geometry. 
                 I have secondary interests in cryptography, web development, and cybersecurity. <br />
@@ -38,27 +38,27 @@ function About () {
             <h3>Skills</h3>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-5">
-                <div className="rounded-xl bg-slate-800 p-6 hover:-translate-y-1 transition-all border border-white/15 hover:border-teal-500" >
-                    <h3 className="text-2xl font-bold mb-4 w-full text-center">Frontend</h3>
+                <div className="w-80 m-auto md:w-full md:m-0 rounded-xl bg-slate-800 p-6 hover:-translate-y-1 transition-all border border-white/15 hover:border-sky-300" >
+                    <h4 className="mb-4 w-full text-center">Frontend</h4>
                     <div className="flex flex-wrap gap-2">
                         {frontendSkills.map((skill: string, key: number) => (
-                            <span key={key} className = "bg-teal-500/10 text-teal-500 py-1 px-3 rounded-full text-sm">{skill}</span>
+                            <span key={key} className = "bg-sky-300/10 text-sky-400 py-1 px-3 rounded-full text-sm">{skill}</span>
                         ))}
                     </div>
                 </div>
-                <div className="rounded-xl bg-slate-800 p-6 hover:-translate-y-1 transition-all border border-white/15 hover:border-teal-500">
-                    <h3 className="text-2xl font-bold mb-4 w-full text-center">Backend</h3>
+                <div className="w-80 m-auto md:w-full md:m-0 rounded-xl bg-slate-800 p-6 hover:-translate-y-1 transition-all border border-white/15 hover:border-sky-300">
+                    <h4 className="mb-4 w-full text-center">Backend</h4>
                     <div className="flex flex-wrap gap-2">
                         {backendSkills.map((skill: string, key: number) => (
-                            <span key={key} className = "bg-teal-500/10 text-teal-500 py-1 px-3 rounded-full text-sm">{skill}</span>
+                            <span key={key} className = "bg-sky-300/10 text-sky-400 py-1 px-3 rounded-full text-sm">{skill}</span>
                         ))}
                     </div>
                 </div>
-                <div className="rounded-xl bg-slate-800 p-6 hover:-translate-y-1 transition-all border border-white/15 hover:border-teal-500">
-                    <h3 className="text-2xl font-bold mb-4 w-full text-center">Miscellaneous</h3>
+                <div className="w-80 m-auto md:w-full md:m-0 rounded-xl bg-slate-800 p-6 hover:-translate-y-1 transition-all border border-white/15 hover:border-sky-300">
+                    <h4 className="mb-4 w-full text-center">Miscellaneous</h4>
                     <div className="flex flex-wrap gap-2">
                         {mathSkills.map((skill: string, key: number) => (
-                            <span key={key} className = "bg-teal-500/10 text-teal-500 py-1 px-3 rounded-full text-sm">{skill}</span>
+                            <span key={key} className = "bg-sky-300/10 text-sky-400 py-1 px-3 rounded-full text-sm">{skill}</span>
                         ))}
                     </div>
                 </div>
@@ -69,13 +69,13 @@ function About () {
             {/* TO DO: I need to add the location to these lmao */}
             <div className="mt-8">
                 <h3>Recent Experiences</h3>
-                <ol className="border-s border-gray-200 dark:border-gray-700">
+                <ol className="mx-2 mt-2 border-s border-gray-200 dark:border-gray-700">
                     {experiences.map((experience: string[]) => (
-                        <li className="mb-10 ms-4">
+                        <li className="mb-4 ms-4">
                             <div className="-translate-x-[1.38em] translate-y-4.5 w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
                             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">{experience[0]}</time>
-                            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">{experience[1]}</h3>
-                            <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">{experience[3]}</p>
+                            <h4 className=" text-gray-900 dark:text-white">{experience[1]}</h4>
+                            <p className=" text-gray-500 dark:text-gray-400">{experience[3]}</p>
                         </li>
                     ))
                     }
