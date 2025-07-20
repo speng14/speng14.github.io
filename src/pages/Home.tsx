@@ -1,7 +1,6 @@
 import '../index.css'
 import Header from '../components/Header'
 import About from '../components/Sections/About'
-import RevealOnScroll from '../components/RevealOnScroll'
 
 // TO DO: add light mode 
 

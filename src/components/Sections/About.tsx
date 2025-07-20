@@ -1,4 +1,4 @@
-import RevealOnScroll from "../RevealOnScroll"
+
 
 
 function About () {
