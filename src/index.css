@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+body {
+    font-family: "Open Sans", sans-serif;
+    @apply dark:bg-slate-950;
+    @apply dark:text-white;
+}
+
+@layer base{
+  h1 {
+    @apply text-5xl md:text-7xl font-bold;
+    @apply p-2;
+    @apply bg-gradient-to-r from-teal-200 to-sky-200 bg-clip-text text-transparent;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl font-bold;
+    @apply mb-8;
+    @apply bg-gradient-to-r from-teal-200 to-sky-200 bg-clip-text text-transparent;
+  }
+
+  h3 {
+    @apply text-2xl font-bold;
+    @apply bg-gradient-to-r from
+  }
+
+  a {
+    @apply dark:text-cyan-600 hover:text-cyan-400 transition-colors;
+  }
+}
+
+/* Reveals upon scroll */
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* TO DO: Want to implement a utility class where on hover, it displays text (which I currently have in parenthesis) because
+I'm a big fan of adding side notes lmao  */
