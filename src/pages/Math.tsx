@@ -1,3 +1,4 @@
+import psetMeme from "../../assets/pset-meme.png"
 
 function Math () {
     return <>
@@ -9,7 +10,7 @@ function Math () {
         <div className="flex justify-center">
 
         <div className="w-md px-4">
-                <img src="../../assets/pset-meme.png" alt="Hour 9 of psetting: you begin asking 
+                <img src={psetMeme} alt="Hour 9 of psetting: you begin asking 
                 the math gods for a revelation" className="w-full h-auto mb-1"/>
                 <p className="text-gray-500 text-center text-xs mx-2">I taught a minicourse on 
                     Bezout's Theorem at PROMYS 2023 and a friend of mine made a meme of a pose I 

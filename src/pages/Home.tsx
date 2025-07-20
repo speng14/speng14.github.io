@@ -1,12 +1,13 @@
 import '../index.css'
 import Header from '../components/Header'
 import About from '../components/Sections/About'
+import home_bg from '../../assets/angeline-beach.jpg'
 
 // TO DO: add light mode 
 
 function Home() {
     return <div id="#home">
-        <Header title="Angeline Peng" bg='../../assets/angeline-beach.jpg'/>
+        <Header title="Angeline Peng" bg={home_bg}/>
 
         
         <div className="flex flex-col items-center mt-4">
