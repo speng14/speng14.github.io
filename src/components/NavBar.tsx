@@ -16,7 +16,7 @@ const NavBar = () => {
 
                 {/* dropdown content */}
                 <div className="absolute left-0 w-36 bg-slate-900 border border-white/15 shadow-lg invisible group-hover:visible opacity-0 group-hover:opacity-100 transition-all duration-200 ease-out z-50">
-                    <a href="https://angelofdesth.github.io/snailrace/" className="text-base text-blue-300 px-4 py-2 block hover:bg-slate-700 transition-colors">
+                    <a href="https://speng14.github.io/snailrace/" className="text-base text-blue-300 px-4 py-2 block hover:bg-slate-700 transition-colors">
                     Snail Race!</a>
                 </div>
             </div>

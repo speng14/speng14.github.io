@@ -9,7 +9,7 @@ function Projects () {
         <h3 className="my-4">Some technical projects!</h3>
         <ul>
             <li><a href="https://battlelingo.onrender.com/">BattleLingo</a>: A multiplayer, real-time language-learning game! Made for 2025 Web Lab. We won 5th place! </li>
-            <li><a href="https://angelofdesth.github.io/snailrace/">Snail Race</a>: watch four snails, Bartholomew, Bob, Hubert, and Leaf, race each other!</li>
+            <li><a href="https://speng14.github.io/snailrace/">Snail Race</a>: watch four snails, Bartholomew, Bob, Hubert, and Leaf, race each other!</li>
         </ul>
         
     </div>

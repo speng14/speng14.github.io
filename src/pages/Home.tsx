@@ -16,10 +16,11 @@ function Home() {
                 </p>
 
             {/* TO DO: want a CV for all my different experiences: tech and academic */}
-                {/* <div>
-                    <button>(Technical) Resume</button> 
-                    <button>(Academic) CV</button>
-                </div> */}
+                <div>
+                    {/* <button>(Technical) Resume</button>  */}
+                    <button><a href="../../assets/SiyuPengCV-Teaching.pdf">(Teaching) Resume</a></button>
+                    {/* <button>(Academic) CV</button> */}
+                </div>
                 <p>
                     Email: <a href="mailto:pengs14@mit.edu">pengs14@mit.edu</a>
                 </p>
