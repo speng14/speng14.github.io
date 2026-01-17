@@ -6,7 +6,7 @@ function About () {
     const frontendSkills = ["React", "TypeScript", "TailwindCSS"]
     const backendSkills = ["Node.js", "Python", "Socket.IO", "MongoDB"]
     // Would like to do math skills and miscellaneous, but I don't have enough in miscellaneous to justify this 
-    const mathSkills = ["SageMath", "Wolfram Mathematica", "Google Apps Script"]
+    const mathSkills = ["SageMath", "Wolfram Mathematica"]
     const experiences = [["May 2025 - Present", "Researcher @ USF REU for Cryptography and Coding Theory", "Tampa, FL", 
         "Studied polynomials and rational functions over finite fields under pre- and post-composition by elements of PGL."
             ],
@@ -27,8 +27,8 @@ function About () {
         
         <div className="px-4">
             <p className="text-gray-300 mb-6 px-2 mx-auto">
-                Hello! I'm Siyu Peng, and I go by Angeline. I'm a junior at the Massachusetts Institute of Technology, majoring in Course 18 and minoring 
-                in Course 6. I'd like to do math research, and my research interests primarily include arithmetic and algebraic geometry. 
+                Hello! I'm Siyu Peng, and I also go by Angeline. I'm a junior at the Massachusetts Institute of Technology, majoring in Course 18 and minoring 
+                in Course 6. I'd like to do research in arithmetic geometry. 
                 I have secondary interests in cryptography, web development, and cybersecurity. <br />
             </p>
 

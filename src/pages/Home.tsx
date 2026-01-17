@@ -1,7 +1,7 @@
 import '../index.css'
 import Header from '../components/Header'
 import About from '../components/Sections/About'
-import home_bg from '../../assets/angeline-beach.jpg'
+import home_bg from '../../assets/angeline-banner.jpeg'
 
 // TO DO: add light mode 
 
@@ -18,8 +18,7 @@ function Home() {
             {/* TO DO: want a CV for all my different experiences: tech and academic */}
                 <div>
                     {/* <button>(Technical) Resume</button>  */}
-                    <button><a href="../../assets/SiyuPengCV-Teaching.pdf">(Teaching) Resume</a></button>
-                    {/* <button>(Academic) CV</button> */}
+                    <a href="../../assets/SiyuPengCV-Teaching.pdf">(Teaching) Resume</a> | <a href="../../assets/SiyuPengCV-Research.pdf">(Academic) CV</a>
                 </div>
                 <p>
                     Email: <a href="mailto:pengs14@mit.edu">pengs14@mit.edu</a>
