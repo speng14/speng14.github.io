@@ -1,4 +1,4 @@
-import psetMeme from "../../assets/pset-meme.png"
+// import psetMeme from "../../assets/pset-meme.png"
 
 function Math () {
     return <div className="w-full mx-2 md:w-3xl xl:w-4xl md:m-auto flex flex-col mt-4 md:px-0">
