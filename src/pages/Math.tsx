@@ -13,9 +13,9 @@ function Math () {
 
         <div className="pl-4 pt-1">
             <ul>
-            <li><a href="../../assets/The_Albanese_Method.pdf">The Albanese Method</a>, for an independent reading course on algebraic geometry</li>
-            <li><a href="../../assets/Reduction in Arithmetic Dynamics.pdf">Reduction in Arithmetic Dynamics</a>, for 18.784: Seminar in Arithmetic Dynamics</li>
-            <li><a href="../../assets/Intro to Real Analysis.pdf">Intro to Real Analysis</a>, for the 2026 iteration of the UMA IAP Proofs Workshop</li>
+            <li><a href="/The_Albanese_Method.pdf">The Albanese Method</a>, for an independent reading course on algebraic geometry</li>
+            <li><a href="/Reduction.pdf">Reduction in Arithmetic Dynamics</a>, for 18.784: Seminar in Arithmetic Dynamics</li>
+            <li><a href="/IntroRealAnalysis.pdf">Intro to Real Analysis</a>, for the 2026 iteration of the UMA IAP Proofs Workshop</li>
         </ul>
         </div>
         
